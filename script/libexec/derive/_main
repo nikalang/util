@@ -1,0 +1,4 @@
+#!/bin/sh
+
+node "$NIKA_SCRIPT_LIBEXEC_DIRECTORY/derive/derive.js" "$NIKA_HOME/repository/language/development/middle_chinese/woyimi/algorithm.yml" "$@"
+
