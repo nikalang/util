@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ -z "$NIKA_HOME" ];
+then
+    NIKA_HOME="$(dirname "$0")/../../.."
+fi
+
+NIKA_UTIL_HOME="$NIKA_HOME/repository/util"
+NIKA_SCRIPT_DIRECTORY="$NIKA_UTIL_HOME/script"
+NIKA_SCRIPT_BIN_DIRECTORY="$NIKA_SCRIPT_DIRECTORY/bin"
+NIKA_SCRIPT_LIBEXEC_DIRECTORY="$NIKA_SCRIPT_DIRECTORY/libexec"
+
+. "$NIKA_SCRIPT_LIBEXEC_DIRECTORY/_main" "$@"
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+command="$1"
+case "$command" in
+* )
+  shift 1
+  . "$NIKA_SCRIPT_LIBEXEC_DIRECTORY/$command" "$@"
+  ;;
+esac
+
