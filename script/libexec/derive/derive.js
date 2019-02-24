@@ -19,7 +19,7 @@ var word = process.argv[3];
 
 var log_all = false;
 
-if (process.argv[2] === '-a') {
+if (process.argv[3] === '-a') {
   log_all = true;
   word = process.argv[4]
 }
