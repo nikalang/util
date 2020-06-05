@@ -1,3 +1,0 @@
-#!/bin/sh
-
-yq -r '.[]|.hangeul+" "+.latin' "$NIKA_HOME/repository/language/phonology/syllable.yml"
