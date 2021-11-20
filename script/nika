@@ -1,0 +1,2 @@
+#!/usr/bin/env nikash
+puts "Hello, Nika!"
